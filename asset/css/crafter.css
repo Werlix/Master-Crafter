@@ -1,0 +1,90 @@
+#game {
+    display: none;
+}
+.gameArea {
+    padding: 10px 5px;
+    background-color: #eee;
+    background-color: rgba(86,61,124,.15);
+    border: 1px solid #ddd;
+    border: 1px solid rgba(86,61,124,.2);
+    margin: 1vh 0px;
+    overflow: auto;
+}
+h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+#row1 {
+    height: 15vh;
+}
+#row2 {
+    height: 55vh;
+}
+#row3 {
+    height: 30vh;
+}
+.row {
+}
+#orders {
+    height: 13vh;
+    background: none;
+    border: none;
+}
+#inventory {
+    height: 33vh;
+}
+#bench {
+    height: 18vh;
+    background: rgb(178, 154, 104);
+    border-radius: 5px;
+}
+#factories {
+    height: 53vh;
+    background: none;
+    border: none;
+}
+#recipes {
+    height: 28vh;
+}
+.item {
+    border: 1px solid #ADADAD;
+    border-radius: 3px;
+    width: 46px;
+    height: 46px;
+    float: left;
+    position: relative;
+    cursor: pointer;
+    margin: 2px;
+    /*background-position: 9px 2px;
+    background-repeat: no-repeat;*/
+}
+.item:hover {
+    border: 1px solid #666;
+}
+.item img {
+    position: absolute;
+    left: 7px;
+}
+/*
+.item.wood {
+    background-image: url('../../asset/images/wood2.png');
+}
+.item.iron {
+    background-image: url('../../asset/images/iron.png');
+}
+.item.stone {
+    background-image: url('../../asset/images/stone.png');
+}
+.item.gold {
+    background-image: url('../../asset/images/gold.png');
+}
+.item.coin {
+    background-image: url('../../asset/images/coin.png');
+}*/
+.item .num {
+    position: absolute;
+    bottom: 0px;
+    width: 44px;
+    text-align: center;
+}
